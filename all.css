@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+header li{
+   list-style-type: none;
+   display: inline;
+   padding: 0 20px;
+   font-size: 18px;
+
+}
+
+header a{
+    text-decoration: none;
+        color: white;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+
+body, html{
+  background: #FE9985;
+  width: 100%;
+  margin: 0;
+}
+
+.allLogs{
+margin: 0 auto;
+text-align: center;
+}
+
+.eachLog{
+  color: #FE9985;
+  background: #FFE3DC;
+  display: inline-block;
+  float: inherit;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10%;
+  text-align: left;
+  width: 20%;
+
+}
+
+.eachLog p { 
+  margin:10px;
+border-bottom: 2px solid white;  
+padding-bottom: 4px;
+padding: 10px 0;
+}
+
+#logDate{
+    color: #FE9985;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+  body {
+  color: #fff;
+  font-size: 1.0em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif;
+  font-weight: 1;
+}
+
+
+
+

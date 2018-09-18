@@ -1,0 +1,68 @@
+
+
+body{
+  margin: 0;
+  background: #FE9985;
+  text-align: center;
+}
+
+P{
+  font-size: 20px;
+}
+
+fieldset{
+    border: none;
+}
+
+.header-content{
+
+/*    background-image: url('aaron-burden-521422-unsplash.jpg');*/
+    background: #FE9985;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-size: 40px;
+    height: 500px;
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+    opacity: .5;
+}
+
+.header-content h2{
+  font-size: 30px;
+}
+
+.content{
+  padding-top: 150px;
+}
+
+#middle-area{
+text-align: center;
+margin-top: 50px;
+}
+
+#middle-content{
+  margin-top: 100px;
+
+}
+
+#middle-area img{
+  padding: 0 100px;
+
+}
+
+.logs{
+  display: inline-block;
+  text-transform: uppercase;
+
+}
+
+.logs p{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#icons{
+  margin-top: 100px;
+}
